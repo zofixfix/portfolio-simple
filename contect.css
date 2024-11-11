@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+
+    padding: 0;
+}
+
+body {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    margin: 50px;
+}
+
+.section-one,
+.section-two,
+.section-three {
+    margin: 10px;
+}
+
+.section-one {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.section-one__contect {
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.section-one__name {
+
+    font-size: 60px;
+}
+
+.section-one__dese {
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+
+.section-two{
+    margin-top: 20px;
+}
+
+.section-two__form__input,.section-two__form__textarea,.section-two__form__submit{
+    margin-top: 10px;
+}
+
+.section-two__form__input{
+    padding: 10px;
+    border-style: none;
+    border-bottom: solid black 1px;
+}
+
+.section-two__form__textarea{
+    padding: 10px;
+    border-style: none;
+    border: solid black 1px;
+}
+
+.section-two__form__submit{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border: solid black 1px ;
+    border-radius: 5px
+}
+
+.section-three{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section-three__title a{
+    color:skyblue;
+}
+
+
+
